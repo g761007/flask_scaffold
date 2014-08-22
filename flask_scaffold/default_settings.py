@@ -26,6 +26,15 @@ WRITE_DATABASE_URI = READ_DATABASE_URI
 #: Use same database for reading and writing
 READ_WRITE_SAME = True
 
+#: MongoDB hosts
+MONGO_HOSTS = [u'127.0.0.1:27017']
+
+#: MongoDB arguments
+MONGO_ARGS = dict()
+
+#: MongoDB database
+MONGO_DB = 'flask_scaffold'
+
 VERSION = '0.0.0'
 
 #: API kyes

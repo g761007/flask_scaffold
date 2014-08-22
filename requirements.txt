@@ -4,3 +4,4 @@ pyyaml
 sqlalchemy
 zope.sqlalchemy
 tornado
+pymongo
