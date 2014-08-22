@@ -35,7 +35,7 @@ def load_deps():
 
 if __name__ == '__main__':
     import logging
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.DEBUG)
     setup_logging()
     load_deps()
     app.run()
