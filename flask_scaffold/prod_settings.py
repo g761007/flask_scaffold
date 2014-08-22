@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 # is the debug mode on
-DEBUG = True
+DEBUG = False
 
 # !!!WARNING!!! MODIFY THIS IN PRODUCTION
 SECRET_KEY = ''

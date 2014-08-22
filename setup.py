@@ -10,6 +10,7 @@ try:
     from flask_scaffold.scripts.setup_cmd import *
     extra['cmdclass'] = {
         'runapp': RunServerCommand,
+        'initdb': InitDBCommand,
     }
 except ImportError:
     pass
